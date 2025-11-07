@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-webdav",
-  "version": "0.1.9",
-  "description": "n8n нода для интеграции с WebDAV серверами, включая Яндекс.Диск",
+  "version": "0.5.5",
+  "description": "n8n нода для интеграции с WebDAV серверами",
   "license": "MIT",
   "author": {
     "name": "AlekMel",
