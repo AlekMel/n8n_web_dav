@@ -1,11 +1,11 @@
 {
-  "name": "n8n-nodes-webdav-yandex",
-  "version": "0.1.7",
+  "name": "n8n-nodes-webdav",
+  "version": "0.1.9",
   "description": "n8n нода для интеграции с WebDAV серверами, включая Яндекс.Диск",
   "license": "MIT",
   "author": {
     "name": "AlekMel",
-    "email": "alekmel@example.com"
+    "email": "your-email@example.com"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,15 @@
     "webdav",
     "yandex",
     "yandex-disk",
+    "nextcloud",
+    "owncloud",
+    "microsoft-sharepoint",
+    "webdav-server",
+    "webdav-client",
+    "webdav-api",
+    "webdav-protocol",
+    "webdav-implementation",
+    "webdav-library",
     "file-operations"
   ],
   "main": "index.js",

@@ -833,7 +833,13 @@ export class WebDav implements INodeType {
 				if (Array.isArray(responseData)) {
 					returnData.push.apply(returnData, responseData);
 				} else if (responseData !== undefined) {
-					returnData.push({json: responseData as IDataObject});
+					// Если responseData уже является INodeExecutionData (имеет binary данные), добавляем напрямую
+					if ((responseData as any).binary !== undefined) {
+						returnData.push(responseData as INodeExecutionData);
+					} else {
+						// Иначе оборачиваем в json
+						returnData.push({json: responseData as IDataObject});
+					}
 				}
 			} catch (error: any) {
 				// Улучшенная обработка ошибок с детальной информацией
