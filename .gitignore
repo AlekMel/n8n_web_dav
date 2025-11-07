@@ -1,0 +1,43 @@
+# Зависимости
+node_modules/
+package-lock.json
+
+# Скомпилированные файлы
+dist/
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Временные файлы
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Тестовые файлы (если содержат чувствительные данные)
+test-manual.js.local
+test-manual.js
+
+# Архивы
+*.tgz
+*.tar.gz
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Кеш TypeScript
+*.tsbuildinfo

@@ -1,0 +1,34 @@
+# Source folders
+/src
+
+# Build tools
+tsconfig.json
+build.js
+
+# Git
+.git
+.gitignore
+.github
+
+# Development
+node_modules
+.vscode
+.eslintrc.js
+.prettierrc.js
+.editorconfig
+
+# Tests
+/test
+/tests
+*.spec.ts
+*.test.ts
+
+# Test manual
+test-manual.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 

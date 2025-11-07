@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {
+      "name": "WebDav",
+      "path": "dist/nodes/WebDav/WebDav.node.js"
+    }
+  ],
+  "credentials": [
+    {
+      "name": "WebDavApi",
+      "path": "dist/credentials/WebDavApi.credentials.js"
+    }
+  ]
+} 
